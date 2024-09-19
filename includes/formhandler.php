@@ -12,6 +12,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         exit();
     }
 
+    $fullName = $firstName . " " . $lastName;
     echo "This is the details submitted: ";
     echo "<br>";
     echo $firstName;
@@ -19,4 +20,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     echo $lastName;
     echo "<br>";
     echo $favoritePet;
+    echo "<br>";
+    echo $fullName;
+    echo "<br>";
+    echo 1 + 2;
+    echo "<br>";
+    echo 1 - 2;
+    echo "<br>";
+    echo 10 / 2;
+    echo "<br>";
+    echo 25 * 4;
 }

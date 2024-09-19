@@ -32,9 +32,29 @@
 
 
         // String operator
+        $a = "Hello";
+        $b = "World!";
+        $c = $a . " " . $b; // concatenate . between two variables
+        echo $c;
 
+        // "Hello World!"
 
+        // Arithmetic operator
 
+        echo 1 + 2; // addition
+        echo 1 - 2; //substraction
+        echo 10 % 2; //division
+        echo 25 * 4; //multiplication
+        echo 10 ** 3; //power of 
+
+        //Comparison operator
+
+        $a = 3;
+        $b = 4;
+
+        if ($a == $b){
+            echo "This statement is false";
+        }
     ?>
 </body>
 
