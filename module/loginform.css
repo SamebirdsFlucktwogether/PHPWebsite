@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+.svg-background {
+ background-color: #0e4166;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+.container {
+    width: 600px; /* Doubled from 300px */
+    overflow: hidden;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+.slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: 1200px; /* Doubled from 600px */
+}
+.form-container {
+    width: 600px; /* Doubled from 300px */
+    padding-left: 25px; /* Adjusted padding */
+    padding-right: 50px; /* Adjusted padding */
+}
+.form-container h1 {
+    text-align: center;
+}
+.form-container input[type="email"],
+.form-container input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.form-container .form-btn {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #0b5b40;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.form-container .form-btn:hover {
+    background-color: #084d34;
+}
+.form-container p {
+    margin-top: 20px;
+    text-align: center;
+}
+.form-container a {
+    color: #0b5b40;
+    text-decoration: none;
+}
+.form-container a:hover {
+    text-decoration: underline;
+}
+.toggle-buttons {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #0b5b40;
+    color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.toggle-buttons button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+.toggle-buttons button:hover {
+    text-decoration: underline;
+}

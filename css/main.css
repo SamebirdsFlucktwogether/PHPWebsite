@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e9ecef; /* Light gray background */
+    margin: 0;
+    padding: 20px;
+}
+.svg-background-wrapper {
+    position: fixed; /* Fixed positioning to cover entire viewport */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden; /* Prevent scrolling */
+    z-index: -1; /* Place behind other content */
+}
+
+.svg-background {
+    width: 100%;
+    height: 100%;
+}
+
+#container {
+    max-width: 500px;
+    margin: auto;
+    padding: 50px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    z-index: 1;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333; /* Dark gray for contrast */
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #495057; /* Slightly darker gray */
+}
+
+input[type="text"], select {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ced4da; /* Light border */
+    border-radius: 4px;
+    font-size: 14px;
+    transition: border-color 0.3s; /* Smooth transition */
+}
+
+#text {
+    width: 95%;
+    padding: 10px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ced4da; /* Light border */
+    border-radius: 4px;
+    font-size: 14px;
+    transition: border-color 0.3s;
+}
+
+input[type="text"]:focus, select:focus {
+    border-color: #80bdff; /* Blue for focus */
+    outline: none;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff; /* Bright blue */
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue for hover */
+}
+
+/* Responsive styles */
+@media (max-width: 600px) {
+    #container {
+        padding: 15px;
+    }
+    
+    h2 {
+        font-size: 1.5em; /* Adjust heading size */
+    }
+}
